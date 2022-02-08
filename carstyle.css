@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body {
+background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/155489-abstract-dark-grey-background.jpg?w=800&q=95");
+
+}
+
+title {
+color: black;
+}
+
+ul {
+color: blue;
+}
+
+p {
+background-color: rgb(255, 255, 255);
+}
+
+.h1 {
+color-scheme:black;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*{
+    font-family: 'Poppins' ,sans-serif;
+    margin:0;padding:0;
+    box-sizing:border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    color: blue;
+
+}
+.container {
+    width:100%;
+    margin:0 auto;
+}
+
+.logo{
+    float:left;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 25px;
+}
+header{
+    content: '';
+    display:table;
+    clear:both;
+}
+
+header .container a{
+    color: #333;
+    font-size:2rem;
+    padding: 0 1.5rem;
+
+}
+header .container a:hover{
+    color:var(--red)
+
+}
+.container1{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
+.containergarage{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+.garagename{
+    flex-basis: 31%;
+    background:#fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.garagename:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
